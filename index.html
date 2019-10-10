@@ -1,7 +1,279 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Github homepage for vicpermir</h1>
-<p>Projects</p>
-</body>
+<html lang="en">
+  <head>
+    <title>Víctor Pérez - Software Engineer</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="data:,">
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/spectre.min.css">
+    <link rel="stylesheet" href="css/spectre-exp.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+  </head>
+  <!--
+    <neck></neck> I guess? :)
+  -->
+  <body>
+    <div class="page-container off-canvas off-canvas-sidebar-show">
+      <div class="page-navbar">
+          <a class="off-canvas-toggle btn btn-link btn-action" href="#sidebar">
+            <i class="icon ion-md-menu"></i>
+          </a>
+      </div>
+      <div class="page-sidebar off-canvas-sidebar" id="sidebar">
+        <div class="page-brand">
+            <a class="page-logo" href="./"><h2>Víctor Pérez</h2></a>
+        </div>
+        <div class="page-nav">
+          <div class="accordion-container">
+            <div class="accordion">
+              <input id="accordion-start" type="checkbox" name="page-accordion-checkbox" hidden="" checked="checked"/>
+              <label class="accordion-header c-hand" for="accordion-start">Start</label>
+              <div class="accordion-body">
+                <ul class="menu menu-nav">
+                  <li class="menu-item">
+                    <a href="#about-me"><i class="icon ion-md-person"></i> About me</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#education"><i class="icon ion-md-school"></i> Education</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#work-experience"><i class="icon ion-md-cafe"></i> Work experience</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#skills"><i class="icon ion-md-briefcase"></i> Skills</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="accordion">
+              <input id="accordion-experiments" type="checkbox" name="page-accordion-checkbox" hidden=""/>
+              <label class="accordion-header c-hand" for="accordion-experiments">Experiments</label>
+              <div class="accordion-body">
+                <ul class="menu menu-nav">
+                  <li class="menu-item"><a href="/web-workers.html">Web Workers</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><a class="off-canvas-overlay" href="#close"></a>
+      <div class="off-canvas-content">
+        <div class="page-content" id="content">
+
+          <!-- About me  -->
+          <div class="container" id="about-me">
+            <h3 class="s-title">About me <a class="anchor" href="#about-me" aria-hidden="true">#</a></h3>
+            <p>
+              Hi, my name is <strong>Víctor Pérez</strong> and I am a <strong>software engineer</strong> from Spain. I like deep diving in new technologies and learning anything <abbr title="Information Technology">IT</abbr> related as much as I can.
+            </p>
+            <p>
+              I have been working as full stack developer for the last few years mostly using <a target="_blank" href="//spring.io">Spring Framework</a>, <a target="_blank" href="//angularjs.org">Angular JS</a> and <a target="_blank" href="//angular.io">Angular 2+</a>.</p>
+            <p>
+              I like keeping things simple, clean and elegant with a focus on performance. In this regard I have experience in general website optimization ranging from the very frontend (html, css and javascript) to the database itself (<a target="_blank" href="//postgresql.org">PostgreSQL</a> to be precise, indexing and partitioning mostly).
+            </p>
+            <div class="row text-center">
+                <a class="btn" target="_blank" href="//www.linkedin.com/in/v%C3%ADctor-p%C3%A9rez-miralles-571a33119"><i class="icon ion-logo-linkedin"></i> LinkedIn</a>
+                <a class="btn" target="_blank" href="//github.com/vicpermir"><i class="icon ion-logo-github"></i> GitHub</a>
+            </div>
+            <div class="page-demo columns">
+              <div class="column col-6 col-xs-12">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="card-title h5">Contact me</div>
+                  </div>
+                  <div class="card-body">
+                      <div class="row">
+                        <i class="icon ion-md-call"></i> <span id="contact-phone">&#054;&#051;&#051;&#055;&#056;&#051;&#056;&#049;&#057;</span>
+                      </div>
+                      <div class="row">
+                        <i class="icon ion-md-mail"></i> <span id="contact-email">&#118;&#105;&#099;&#112;&#101;&#114;&#109;&#105;&#114;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</span>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column col-6 col-xs-12">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="card-title h5">Download my CV</div>
+                  </div>
+                  <div class="card-body">
+                    <a class="btn btn-link" target="_blank" href="files/CV_vicpermir_english.pdf"><i class="icon ion-md-document"></i> English</a>
+                    <a class="btn btn-link" target="_blank" href="files/CV_vicpermir_spanish.pdf"><i class="icon ion-md-document"></i> Spanish</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education -->
+          <div class="container" id="education">
+            <h3 class="s-title">Education <a class="anchor" href="#education" aria-hidden="true">#</a></h3>
+            <div class="page-demo columns">
+              <div class="column col-9 col-sm-12">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <div class="timeline-left"><i class="timeline-icon"></i></div>
+                    <div class="timeline-content">
+                      <div class="tile">
+                        <div class="tile-content">
+                          <p><span class="text-light bg-dark p-1">March 2019</span></p>
+                          <p><strong>Certificate in Advanced English (C1)</strong> @ <a target="_blank" href="//cambridgeenglish.org">Cambridge Assessment</a></p>
+                          <p>Due to the score obtained I was granted the CEFR C2 Level.</p>
+                          <p><i>Overall score: 203 of 210 (97%)</i></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-left"><i class="timeline-icon"></i></div>
+                    <div class="timeline-content">
+                      <div class="tile">
+                        <div class="tile-content">
+                          <p><span class="text-light bg-dark p-1">2015 - 2016</span></p>
+                          <p><strong>Master in Intelligent Systems</strong> @ <a target="_blank" href="//www.uji.es">Universitat Jaume I</a></p>
+                          <p>Robotic Systems, Perception and manipulation, Multi-Agent Systems, Ontologiesand Semantic Web, Machine Learning, Virtual and Augmented Reality.</p>
+                          <p>I was the recipient of a full coverage scholarship and a research grant.</p>
+                          <p><i>Average grade: 82.4%</i></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-left"><i class="timeline-icon"></i></div>
+                    <div class="timeline-content">
+                      <div class="tile">
+                        <div class="tile-content">
+                          <p><span class="text-light bg-dark p-1">2013 - 2015</span></p>
+                          <p><strong>Computer Science Engineering Degree</strong> @ <a target="_blank" href="//www.uji.es">Universitat Jaume I</a></p>
+                          <p>Computer Architecture, Operating Systems, Data Structures, Artificial Intelligence, Networking, Concurrent Programming, Advanced Programming, Information Systems.</p>
+                          <p><i>Average grade: 73.6%</i></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Work experience -->
+          <div class="container" id="work-experience">
+            <h3 class="s-title">Work experience <a class="anchor" href="#work-experience" aria-hidden="true">#</a></h3>
+            <div class="page-demo columns">
+              <div class="column col-9 col-sm-12">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <div class="timeline-left"><i class="timeline-icon"></i></div>
+                    <div class="timeline-content">
+                      <div class="tile">
+                        <div class="tile-content">
+                          <p><span class="text-light bg-dark p-1">March 2019 - Present</span></p>
+                          <p><strong>Senior Programmer</strong> @ <a target="_blank" href="//quosei.com">Quality Outsourcing Software Engineering S.L.</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-left"><i class="timeline-icon"></i></div>
+                    <div class="timeline-content">
+                      <div class="tile">
+                        <div class="tile-content">
+                          <p><span class="text-light bg-dark p-1">March 2017 - March 2019</span></p>
+                          <p><strong>Programmer</strong> @ <a target="_blank" href="//quosei.com">Quality Outsourcing Software Engineering S.L.</a></p>
+                          <p>Development and maintenance of information systems using web technologies (Spring Framework,Hibernate and PostgreSQL).</p>
+                          <p>Desktop and mobile application design.</p>
+                          <p>Collaborative work environment.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-left"><i class="timeline-icon"></i></div>
+                    <div class="timeline-content">
+                      <div class="tile">
+                        <div class="tile-content">
+                          <p><span class="text-light bg-dark p-1">May 2016 - July 2016</span></p>
+                          <p><strong>Research Staff</strong> @ <a target="_blank" href="//www.uji.es">Universitat Jaume I</a></p>
+                          <p>Study and evaluation of multi-agent platforms: JADE, WADE and AMUSE.</p>
+                          <p>Development of a Traffic Intersection simulator.</p>
+                          <p>Using Java and Eclipse.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-left"><i class="timeline-icon"></i></div>
+                    <div class="timeline-content">
+                      <div class="tile">
+                        <div class="tile-content">
+                          <p><span class="text-light bg-dark p-1">July 2015 - September 2015</span></p>
+                          <p><strong>Internship</strong> @ <a target="_blank" href="//sofistic.com">Sofistic Telematic Security, SL</a></p>
+                          <p>Development of a notification system for a web security platform. Highly customizable andconfigurable including message templating, email or phone alerts, notification grouping among otherthings.</p>
+                          <p>I acquired skills related to collaborative development, design patterns and several frameworks.</p>
+                          <p>I worked with GIT, CakePHP and virtualization software.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skills -->
+          <div class="container" id="skills">
+              <h3 class="s-title">Skills <a class="anchor" href="#skills" aria-hidden="true">#</a></h3>
+              <i>Ordered from higher to lower proficiency inside each category.</i>
+              <div class="page-demo columns">
+                <div class="column col-6 col-xs-12">
+                  <div class="card">
+                    <div class="card-header">
+                      <div class="card-title h5">Languages</div>
+                    </div>
+                    <div class="card-body">
+                      Spanish (native), English (C1/C2), Catalan
+                    </div>
+                  </div>
+                </div>
+                <div class="column col-6 col-xs-12">
+                  <div class="card">
+                    <div class="card-header">
+                      <div class="card-title h5">Programming languages</div>
+                    </div>
+                    <div class="card-body">
+                      Java, JavaScript, SQL, TypeScript, HTML, CSS, C#, LaTeX, Python, XML, PHP, C/C++
+                    </div>
+                  </div>
+                </div>
+                <div class="column col-12 col-xs-12">
+                  <div class="card">
+                    <div class="card-header">
+                      <div class="card-title h5">Frameworks and tools</div>
+                    </div>
+                    <div class="card-body">
+                      Spring Framework, Hibernate, Bootstrap, AngularJS, Angular 2+, Git, GitHub, Maven, Apache Cordova, Ionic Framework, Yarn, Webpack
+                    </div>
+                  </div>
+                </div>
+                <div class="column col-12 col-xs-12">
+                  <div class="card">
+                    <div class="card-header">
+                      <div class="card-title h5">Software</div>
+                    </div>
+                    <div class="card-body">
+                      Eclipse, NetBeans, Visual Studio, Visual Studio Code, DBeaver, Power BI, VMWare, PhpMyAdmin, Tableau, MatLab, Protege, Mathematica
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- spacer -->
+          <div style="height:200px"></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
